@@ -1,0 +1,32 @@
+{
+  "aws": {
+    "region": "eu-west-1",
+    "accessKeyId": "AKIAIN6VOAXKMEDLR7YQ",
+    "secretAccessKey": "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",
+    "params": {
+        "Bucket": "s3-eu-west-1.amazonaws.com/analytika-litmus-test"
+    },
+    "url": "https://s3-eu-west-1.amazonaws.com/analytika-litmus-test"
+  },
+  "litmus": {
+    "username": "thomas@analytika.no",
+    "password": "automagisk4000",
+    "url": "https://analytika.litmus.com",
+    "applications": ["ol2003","ol2007","ol2010","ol2011","ol2013","chromegmailnew","chromeyahoo","appmail9","iphone5s","ipad","android4","androidgmailapp"]
+  },
+  "mail": {
+    "to": [
+      "thomas.vervik@gmail.com"
+    ],
+    "from": "First Tuesday Bergen <thomas@ftbergen.no",
+    "smtp": {
+      "auth": {
+        "user": "thomas@ftbergen.no",
+        "pass": "tomas465"
+      },
+      "host": "smtp.gmail.com",
+      "secureConnection": true,
+      "port": 465
+    }
+  }
+}
