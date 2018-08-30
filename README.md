@@ -136,3 +136,7 @@ Read more [here](https://www.digitalocean.com/community/tutorials/how-to-use-goo
 
 Read more [here](https://kb.mailchimp.com/templates/code/getting-started-with-mailchimps-template-language).
 Even more [here](https://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language)
+
+## Mailchimp preview
+
+Read more [here](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/)

@@ -61,9 +61,6 @@ table.button.google table td {
 .bold {
   font-weight: bold;
 }
-p {
-  text-align: justify;
-}
 
 p.left {
   text-align: left;
@@ -86,3 +83,15 @@ a.open-browser {
   text-decoration: underline;
   text-align: center;
 }
+
+table.button--full-width {
+  width: 100% !important;
+  text-align: center;
+  a {
+    display: block !important;
+    text-align: center;
+  }
+}
+
+/* https://mailchimp.com/help/all-the-merge-tags-cheat-sheet */
+.mcnPreviewText{display: none !important;}
