@@ -5,7 +5,7 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: $black !important;
 }
 
 .container.header {
@@ -18,7 +18,7 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: $black;
 }
 
 .header .columns {
@@ -56,4 +56,33 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+.bold {
+  font-weight: bold;
+}
+p {
+  text-align: justify;
+}
+
+p.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.round-top {
+  border-radius: 10px;
+}
+span.italic {
+  font-style: italic;
+}
+
+a.open-browser {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: center;
 }

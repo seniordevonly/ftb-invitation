@@ -131,3 +131,8 @@ For a full list of Litmus' supported test clients(applications) see their [clien
 ## Use Gmail as SMTP server
 
 Read more [here](https://www.digitalocean.com/community/tutorials/how-to-use-google-s-smtp-server)
+
+## Mailchimp template language
+
+Read more [here](https://kb.mailchimp.com/templates/code/getting-started-with-mailchimps-template-language).
+Even more [here](https://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language)
