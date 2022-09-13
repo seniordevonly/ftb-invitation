@@ -17,6 +17,30 @@
 // ---------
 
 $primary-color: #2199e8;
+//$primary-color: #f0dee8;
+$secondary-color: #777777;
+$success-color: #3adb76;
+$warning-color: #ffae00;
+$alert-color: #ec5840;
+$light-gray: #f3f3f3;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #4e4e4e;
+$white: #fefefe;
+$pre-color: #ff6908;
+$global-width: 580px;
+$global-width-small: 95%;
+$global-gutter: 16px;
+$body-background: #f0dee8;
+$container-background: $white;
+$global-padding: 16px;
+$global-margin: 16px;
+$global-radius: 3px;
+$global-rounded: 500px;
+$global-breakpoint: $global-width + $global-gutter;
+
+/*$primary-color: #2199e8;
+//$primary-color: #f0dee8;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -36,7 +60,7 @@ $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+$global-breakpoint: $global-width + $global-gutter;*/
 
 // 2. Grid
 // -------
@@ -55,11 +79,12 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: Arial, sans-serif;
-$global-font-weight: normal;
+//$body-font-family: Arial, sans-serif;
+$body-font-family: Helvetica;
+$global-font-weight: 400;
 $header-color: inherit;
-$global-line-height: 1.3;
-$global-font-size: 14px;
+$global-line-height: 1.5;
+$global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
@@ -83,6 +108,7 @@ $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
 $hr-border: 1px solid $black;
+//$hr-border: 0;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
@@ -111,7 +137,8 @@ $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
-$button-border: 2px solid $button-background;
+//$button-border: 2px solid $button-background;
+$button-border: 0;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
 
@@ -122,11 +149,18 @@ $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-padding: 10px;
 $callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
+
+/*$callout-border: 1px solid darken($callout-background, 20%);
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);
-$callout-border-alert: 1px solid darken($alert-color, 20%);
+$callout-border-alert: 1px solid darken($alert-color, 20%);*/
+
+$callout-border: 0;
+$callout-border-secondary: 0;
+$callout-border-success: 0;
+$callout-border-warning: 0;
+$callout-border-alert: 0;
 
 // 7. Menu
 // -------

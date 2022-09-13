@@ -3,9 +3,9 @@
 
 // Body Styles 
 body,
-html, 
+html,
 .body {
-  background: $black !important;
+  background: $body-background !important;
 }
 
 .container.header {
@@ -18,7 +18,7 @@ html,
 
 // Full Width Headers
 .header {
-  background: $black;
+  background: $body-background;
 }
 
 .header .columns {
@@ -82,7 +82,7 @@ span.italic {
 }
 
 a.open-browser {
-  color: #ffffff;
+  //color: #ffffff;
   font-weight: normal;
   text-decoration: underline;
   text-align: center;
@@ -99,3 +99,10 @@ table.button--full-width {
 
 /* https://mailchimp.com/help/all-the-merge-tags-cheat-sheet */
 .mcnPreviewText{display: none !important;}
+
+//th.callout-inner { padding-top: $callout-padding; padding-right: $callout-padding; padding-bottom: $callout-padding; padding-left: $callout-padding; }
+
+.menu-item {
+  padding-top: $callout-padding;
+  padding-bottom: $callout-padding;
+}
