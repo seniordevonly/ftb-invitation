@@ -8,6 +8,14 @@ html,
   background: $body-background !important;
 }
 
+div {
+  padding: 8px;
+}
+
+p {
+  padding: 0 8px;
+}
+
 .container.header {
   background: #f3f3f3;
 }
@@ -77,6 +85,7 @@ p.left {
 .round-top {
   border-radius: 10px;
 }
+
 span.italic {
   font-style: italic;
 }
@@ -91,6 +100,7 @@ a.open-browser {
 table.button--full-width {
   width: 100% !important;
   text-align: center;
+
   a {
     display: block !important;
     text-align: center;
@@ -98,7 +108,9 @@ table.button--full-width {
 }
 
 /* https://mailchimp.com/help/all-the-merge-tags-cheat-sheet */
-.mcnPreviewText{display: none !important;}
+.mcnPreviewText {
+  display: none !important;
+}
 
 //th.callout-inner { padding-top: $callout-padding; padding-right: $callout-padding; padding-bottom: $callout-padding; padding-left: $callout-padding; }
 
